@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,7 +66,54 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dashboard.html" />
+    <Content Include="fonts\icons.svg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_01_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_02_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_03_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_04_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_05_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_06_tn.jpg" />
+    <Content Include="images\artwork\Hillary_Goldwynn_07_tn.jpg" />
+    <Content Include="images\artwork\Lorenzo_Garcia_01_tn.jpg" />
+    <Content Include="images\artwork\Lorenzo_Garcia_02_tn.jpg" />
+    <Content Include="images\artwork\Lorenzo_Garcia_03_tn.jpg" />
+    <Content Include="images\artwork\Lorenzo_Garcia_04_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_01_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_02_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_03_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_04_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_05_tn.jpg" />
+    <Content Include="images\artwork\Riley_Rewington_06_tn.jpg" />
+    <Content Include="images\misc\helperdcb3.jpg" />
+    <Content Include="images\misc\hotel_gwendoline.jpg" />
+    <Content Include="images\misc\rouxacademymeetups.svg" />
+    <Content Include="images\palacestudio-logo.svg" />
+    <Content Include="images\socialmedia\facebook.png" />
+    <Content Include="images\socialmedia\meetup.png" />
+    <Content Include="images\socialmedia\twitter.png" />
+    <Content Include="images\speakers\Hillary_Goldwynn_tn.jpg" />
+    <Content Include="images\speakers\Lorenzo_Garcia_tn.jpg" />
+    <Content Include="images\speakers\Riley_Rewington_tn.jpg" />
+    <Content Include="login.html" />
     <Content Include="packages.config" />
+    <Content Include="components\sass\styles.scss" />
+    <Content Include=".gitignore" />
+    <Content Include="package.json" />
+    <Content Include="components\sass\_base.scss" />
+    <Content Include="components\sass\_layout.scss" />
+    <Content Include="components\sass\_mixins.scss" />
+    <Content Include="components\sass\_modules.scss" />
+    <Content Include="components\sass\login.scss" />
+    <Content Include="components\sass\icons.scss" />
+    <Content Include="components\sass\_variables.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="fonts\icons.eot" />
+    <Content Include="fonts\icons.ttf" />
+    <Content Include="fonts\icons.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,11 +122,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="components\js\other.js" />
+    <Content Include="components\js\script.js" />
+    <Content Include="css\styles.css" />
+    <Content Include="gruntfile.js" />
+    <Content Include="index.html" />
+    <Content Include="js\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
